@@ -2,6 +2,8 @@
   <div>
     <section-hero />
     <section-mint-store />
+    <section-collectible-game />
+    <section-marketplace />
   </div>
 </template>
 

@@ -47,7 +47,9 @@
               max-w-lg
               md:max-w-3xl
               rounded-sm
-              border border-indigo-50 border-opacity-5
+              border-2
+              md:border-4
+              border-indigo-50 border-opacity-5
               mx-auto
             "
           >
@@ -100,7 +102,11 @@
           w-full
         "
       >
-        <svg-africa class="md:order-2 max-w-xs w-1/2 mb-6 md:mb-auto" />
+        <img
+          src="/africa.png"
+          alt="NFT Store"
+          class="md:order-2 max-w-xs w-1/2 mb-6 md:mb-auto"
+        />
 
         <div class="md:w-7/12">
           <h1
@@ -145,6 +151,81 @@
           >
             Buy QLIP Tokens
           </button>
+        </div>
+      </div>
+
+      <div class="py-16 md:py-24 grid md:grid-cols-2 gap-6 items-center w-full">
+        <div
+          class="
+            bg-indigo-50 bg-opacity-5
+            px-8
+            md:px-16
+            pt-8
+            md:pt-16
+            rounded-lg
+          "
+        >
+          <svg-exhibit class="mb-8 h-20 md:w-40 h-20 md:h-40" />
+          <h1
+            class="
+              text-white text-lg
+              leading-normal
+              font-bold
+              md:text-3xl
+              text-lg
+              mb-3
+            "
+          >
+            QLIP Exhibit
+          </h1>
+          <p
+            class="
+              max-w-3xl
+              text-indigo-100 text-lg
+              md:text-2xl
+              font-medium
+              mb-24
+              md:mb-56
+            "
+          >
+            Showcase your private or public collection, to fans and collectors
+          </p>
+        </div>
+        <div
+          class="
+            px-8
+            md:px-16
+            pt-8
+            md:pt-16
+            border-indigo-50 border-opacity-5 border-2
+            rounded-lg
+          "
+        >
+          <svg-store class="mb-8 h-20 md:w-40 h-20 md:h-40" />
+          <h1
+            class="
+              text-white text-lg
+              leading-normal
+              font-bold
+              md:text-3xl
+              text-lg
+              mb-3
+            "
+          >
+            QLIP Decentralized store
+          </h1>
+          <p
+            class="
+              max-w-3xl
+              text-indigo-100 text-lg
+              md:text-2xl
+              font-medium
+              mb-24
+              md:mb-56
+            "
+          >
+            Mint your memories on the Blockchain and make them private
+          </p>
         </div>
       </div>
     </div>
