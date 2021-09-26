@@ -1,6 +1,7 @@
 <template>
   <div>
     <div
+      id="store"
       class="
         max-w-6xl
         px-4
@@ -35,7 +36,7 @@
           "
         >
           Mint your artworks of any format, audio, text, video, or Picture, with
-          low fees
+          low fees.
         </p>
         <div class="w-full">
           <div
@@ -54,9 +55,29 @@
             "
           >
             <svg-video
-              class="absolute top-10 -right-3 md:-right-10 h-24 w-24"
+              class="
+                absolute
+                top-10
+                -right-3
+                md:-right-10
+                h-10
+                sm:h-16
+                md:h-20
+                lg:h-24
+              "
             />
-            <svg-speaker class="absolute top-28 -left-10 h-24 w-24" />
+            <svg-speaker
+              class="
+                absolute
+                top-28
+                -left-1
+                sm:-left-4
+                h-10
+                sm:h-16
+                md:h-20
+                lg:h-24
+              "
+            />
 
             <div class="mx-auto flex flex-col justify-center items-center">
               <svg-brush class="h-24 w-24" />
@@ -131,8 +152,8 @@
               md:mb-10
             "
           >
-            Grab collectibles of your favourite artist from the various African
-            Entertainment and Arts industry, in Music, Literature, Movie,
+            Grab collectibles of your favorite artist from the various African
+            Entertainment and Arts industry, in Music, Literature, Movies,
             Fashion, Visual arts, and participate in the QLIP gaming activities.
           </p>
           <button
@@ -154,7 +175,9 @@
         </div>
       </div>
 
-      <div class="py-16 md:py-24 grid md:grid-cols-2 gap-6 items-center w-full">
+      <div
+        class="py-16 md:py-24 grid md:grid-cols-2 gap-6 items-stretch w-full"
+      >
         <div
           class="
             bg-indigo-50 bg-opacity-5
@@ -188,9 +211,11 @@
               md:mb-56
             "
           >
-            Showcase your private or public collection, to fans and collectors
+            Users can showcase their private or public collections to fans and
+            collectors in a more media responsive format than just an NFT link.
           </p>
         </div>
+
         <div
           class="
             px-8
@@ -224,7 +249,8 @@
               md:mb-56
             "
           >
-            Mint your memories on the Blockchain and make them private
+            Users can mint their memories on the Blockchain and make them
+            private with the QLIP APP
           </p>
         </div>
       </div>

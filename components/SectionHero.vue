@@ -24,7 +24,7 @@
           mb-3
         "
       >
-        Revolutionizing the NFT Ecosystem
+        Africa’s No.1 cross-chain NFT platform
       </h1>
       <p
         class="

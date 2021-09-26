@@ -41,7 +41,7 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
             class="
               px-6
@@ -68,8 +68,10 @@
             <p
               class="max-w-3xl text-indigo-100 text-sm md:text-base font-medium"
             >
-              Users will determine if their NFT is a Motion Graphic, Meme, Audio
-              Visual (Music), Fashion design, Poetry or Others.
+              Users can determine if their NFT is a Motion Graphic, Meme, Audio
+              Visual (Music), Fashion design, Poetry, or Others and mint without
+              worrying about the storage location or losing their NFTs to a
+              centralized storage platform.
             </p>
           </div>
 
@@ -83,7 +85,7 @@
               rounded-lg
             "
           >
-            <svg-chain class="h-10 md:w-20 h-10 md:h-20 mb-5" />
+            <svg-brush class="h-10 md:w-20 h-10 md:h-20 mb-5" />
             <h1
               class="
                 text-white text-lg
@@ -94,14 +96,49 @@
                 mb-3
               "
             >
-              Order in NFTs
+              Order in (Redeemable) NFTs
             </h1>
             <p
               class="max-w-3xl text-indigo-100 text-sm md:text-base font-medium"
             >
-              Artiste can mint their works and have it delivered to the NFT
-              buyer. Anyone who buys the NFT can get the physical work be it art
-              on canvas, sculpture or fashion piece delivered to them.
+              Artists can mint their works and give collectors the option to
+              have the physical work delivered to them, be it art on canvas,
+              sculpture, music, book, ticket access to an event, or a fashion
+              piece.
+            </p>
+          </div>
+
+          <div
+            class="
+              px-6
+              md:px-10
+              py-6
+              md:py-10
+              border-indigo-50 border-opacity-5 border-2
+              rounded-lg
+            "
+          >
+            <svg-collaboration class="h-10 md:w-20 h-10 md:h-20 mb-5" />
+            <h1
+              class="
+                text-white text-lg
+                leading-normal
+                font-bold
+                md:text-3xl
+                text-xl
+                mb-3
+              "
+            >
+              NFT Collab
+            </h1>
+            <p
+              class="max-w-3xl text-indigo-100 text-sm md:text-base font-medium"
+            >
+              Artists can collaborate “on-chain” to create an NFT by using our
+              automated unique identifier, set the percentages in royalties, and
+              get returns on every collaboration without breaking a sweat. QLIP
+              Audio and visual collab features make it easier for NFT artists to
+              collaborate.
             </p>
           </div>
         </div>
