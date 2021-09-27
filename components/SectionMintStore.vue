@@ -104,7 +104,7 @@
                   mt-9
                 "
               >
-                Buy QLIP Tokens
+                Browse Files
               </button>
             </div>
           </div>
@@ -170,7 +170,7 @@
               md:py-4
             "
           >
-            Buy QLIP Tokens
+            Claim Collectibles
           </button>
         </div>
       </div>

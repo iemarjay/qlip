@@ -61,6 +61,7 @@
 
         <div
           class="
+            relative
             my-10
             md:my-16
             h-60
@@ -74,19 +75,27 @@
             justify-center
           "
         >
-          <button @click="showYoutube = true">
-            <svg
-              class="w-20 md:w-28 h-20 md:h-28"
-              viewBox="0 0 100 101"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M50 4.06123C24.636 4.06123 3.99997 24.6952 3.99997 50.0612C3.99997 75.4272 24.636 96.0612 50 96.0612C75.364 96.0612 96 75.4272 96 50.0612C96 24.6952 75.364 4.06123 50 4.06123ZM36.084 72.1292L35.918 28.1372L74 49.9892L36.084 72.1292Z"
-                fill="white"
-              />
-            </svg>
-          </button>
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube-nocookie.com/embed/aUCViBzDjWk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <!--          <button class="absolute" @click="showYoutube = true">-->
+          <!--            <svg-->
+          <!--              class="w-20 md:w-28 h-20 md:h-28"-->
+          <!--              viewBox="0 0 100 101"-->
+          <!--              fill="none"-->
+          <!--              xmlns="http://www.w3.org/2000/svg"-->
+          <!--            >-->
+          <!--              <path-->
+          <!--                d="M50 4.06123C24.636 4.06123 3.99997 24.6952 3.99997 50.0612C3.99997 75.4272 24.636 96.0612 50 96.0612C75.364 96.0612 96 75.4272 96 50.0612C96 24.6952 75.364 4.06123 50 4.06123ZM36.084 72.1292L35.918 28.1372L74 49.9892L36.084 72.1292Z"-->
+          <!--                fill="white"-->
+          <!--              />-->
+          <!--            </svg>-->
+          <!--          </button>-->
         </div>
       </div>
     </div>

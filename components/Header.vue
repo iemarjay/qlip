@@ -18,8 +18,9 @@
       </nuxt-link>
 
       <div class="flex ml-auto md:ml-6 md:order-3">
-        <nuxt-link
-          to="#"
+        <a
+          target="_blank"
+          href="https://t.me/qlipit_io"
           class="
             border-primary border
             hover:bg-primary
@@ -35,7 +36,7 @@
           "
         >
           <span class="text-xs lg:text-sm">Join Community</span>
-        </nuxt-link>
+        </a>
 
         <button class="md:hidden" @click="showMobileNav = !showMobileNav">
           <svg
@@ -101,7 +102,7 @@ export default {
   name: "Header",
   data() {
     return {
-      showMobileNav: false,
+      showMobileNav: true,
     }
   },
 }

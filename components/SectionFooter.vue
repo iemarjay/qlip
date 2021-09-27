@@ -2,31 +2,36 @@
   <footer>
     <div class="max-w-6xl px-4 w-full mx-auto">
       <div class="py-16 md:py-24 w-full grid md:grid-cols-2">
-        <logo class="h-16 mb-10" />
+        <div class="flex">
+          <nuxt-link to="/">
+            <logo class="h-16 mb-10" />
+          </nuxt-link>
+        </div>
 
         <div class="grid grid-cols-2">
           <div
             class="
               grid grid-rows-4
-              gap-4
+              gap-2
+              lg:gap-4
               text-white text-base
               lg:text-lg
               font-medium
             "
           >
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <nuxt-link to="/#store" class="mx-3 lg:mx-6">
               <span>Mint Store</span>
             </nuxt-link>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <nuxt-link to="/#marketplace" class="mx-3 lg:mx-6">
               <span>Marketplace</span>
             </nuxt-link>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <nuxt-link to="/#roadmap" class="mx-3 lg:mx-6">
               <span>Roadmap</span>
             </nuxt-link>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <nuxt-link to="/#token" class="mx-3 lg:mx-6">
               <span>QLIP Token</span>
             </nuxt-link>
 
@@ -38,27 +43,53 @@
           <div
             class="
               grid grid-rows-6
-              gap-4
+              gap-2
+              lg:gap-4
               text-white text-base
               lg:text-lg
               font-medium
             "
           >
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <a href="https://twitter.com/Qlip_it" class="mx-3 lg:mx-6">
               <span>Twitter</span>
-            </nuxt-link>
+            </a>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
-              <span>Facebook</span>
-            </nuxt-link>
+            <a href="https://instagram.com/qlipit.io" class="mx-3 lg:mx-6">
+              <span>Instagram</span>
+            </a>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <a href="https://youtu.be/Zj58i_j17YA" class="mx-3 lg:mx-6">
               <span>Youtube</span>
-            </nuxt-link>
+            </a>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <a href="https://qlipit-io.medium.com/" class="mx-3 lg:mx-6">
               <span>Medium</span>
-            </nuxt-link>
+            </a>
+
+            <a href="https://discord.gg/bJB5jBqn5n" class="mx-3 lg:mx-6">
+              <span>Discord</span>
+            </a>
+
+            <a
+              href="http://academy.qlitit.io/"
+              target="_blank"
+              class="mx-3 lg:mx-6"
+            >
+              <span>Academy</span>
+            </a>
+
+            <div>
+              <a
+                href="mailto:partnerwithus@qlipit.io"
+                class="ml-3 lg:ml-6 hover:underline"
+                >partnerwithus@qlipit.io</a
+              >,
+              <a
+                href="mailto:letscollaborate@qlipit.io"
+                class="ml-3 lg:ml-6 hover:underline"
+                >letscollaborate@qlipit.io</a
+              >
+            </div>
           </div>
         </div>
       </div>
