@@ -4,6 +4,7 @@
     <section-mint-store />
     <section-collectible-game />
     <section-marketplace />
+    <section-team />
     <section-roadmap />
     <section-token />
     <section-footer />

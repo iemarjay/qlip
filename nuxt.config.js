@@ -34,7 +34,10 @@ export default {
           "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
       },
     ],
-    link: [{ rel: "icon", type: "image/png", href: "/icon.png" }],
+    link: [
+      { rel: "icon", type: "image/png", href: "/icon.png" },
+      { rel: "shortcut icon", href: "/icon.png" },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -81,6 +84,7 @@ export default {
       description:
         "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
     },
+    icon: {},
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
