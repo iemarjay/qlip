@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Qlip",
+    title: "Qlip - Africa’s No.1 cross-chain NFT platform",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -79,7 +79,7 @@ export default {
   pwa: {
     manifest: {
       lang: "en",
-      name: "Qlip",
+      name: "Qlip - Africa’s No.1 cross-chain NFT platform",
       short_name: "Qlip",
       description:
         "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
