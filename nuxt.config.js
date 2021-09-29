@@ -84,7 +84,6 @@ export default {
       description:
         "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
     },
-    icon: {},
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

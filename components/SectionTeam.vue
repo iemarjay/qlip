@@ -46,7 +46,7 @@
             <img
               :src="show.image"
               :alt="show.name"
-              class="w-2/3 md:w-full mx-auto"
+              class="w-2/3 md:w-full mx-auto rounded-lg md:rounded-xl"
             />
           </div>
           <div class="md:col-span-2">
@@ -80,7 +80,7 @@
                   <img
                     :src="member.image"
                     :alt="member.name"
-                    class="max-w-full max-h-28 mx-auto"
+                    class="max-w-full max-h-28 mx-auto rounded-lg"
                   />
 
                   <h3
