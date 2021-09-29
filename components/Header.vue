@@ -89,9 +89,13 @@
           <span>QLIP Token</span>
         </nuxt-link>
 
-        <nuxt-link to="#" class="mr-3 lg:mx-3 lg:mx-6 my-3">
+        <a
+          href="/Landing%20Page.pdf"
+          download="whitepaper"
+          class="mr-3 lg:mx-3 lg:mx-6 my-3"
+        >
           <span>Whitepaper</span>
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </div>

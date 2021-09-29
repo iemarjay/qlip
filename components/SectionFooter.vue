@@ -35,9 +35,13 @@
               <span>QLIP Token</span>
             </nuxt-link>
 
-            <nuxt-link to="#" class="mx-3 lg:mx-6">
+            <a
+              href="/Landing%20Page.pdf"
+              download="whitepaper"
+              class="mx-3 lg:mx-6"
+            >
               <span>Whitepaper</span>
-            </nuxt-link>
+            </a>
           </div>
 
           <div
@@ -70,11 +74,7 @@
               <span>Discord</span>
             </a>
 
-            <a
-              href="http://academy.qlitit.io/"
-              target="_blank"
-              class="mx-3 lg:mx-6"
-            >
+            <a href="http://academy.qlitit.io/" class="mx-3 lg:mx-6">
               <span>Academy</span>
             </a>
 

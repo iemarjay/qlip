@@ -5,10 +5,36 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
+      },
+      { hid: "author", name: "author", content: "Qlip" },
+      { hid: "theme-color", name: "theme-color", content: "#2A2A3C" },
+      {
+        hid: "msapplication-navbutton-color",
+        name: "msapplication-navbutton-color",
+        content: "#2A2A3C",
+      },
+      {
+        hid: "apple-mobile-web-app-status-bar-style",
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "#2A2A3C",
+      },
+      { property: "og:title", name: "og:title", content: "Qlip" },
+      { property: "og:type", name: "og:type", content: "website" },
+      { property: "og:site_name", name: "og:site_name", content: "Qlip" },
+      {
+        property: "og:description",
+        name: "og:description",
+        content:
+          "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
+      },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/png", href: "/icon.png" }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -50,6 +76,10 @@ export default {
   pwa: {
     manifest: {
       lang: "en",
+      name: "Qlip",
+      short_name: "Qlip",
+      description:
+        "QLIP provides value for creators, collectors, mainstream artists and decentralized store users.",
     },
   },
 
