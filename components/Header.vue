@@ -91,7 +91,7 @@
 
         <a
           href="/Landing%20Page.pdf"
-          download="whitepaper"
+          download="whitepaper.pdf"
           class="mr-3 lg:mx-3 lg:mx-6 my-3"
         >
           <span>Whitepaper</span>
