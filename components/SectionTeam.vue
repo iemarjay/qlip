@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div id="team" class="">
     <div
       id="token"
       class="
@@ -162,7 +162,7 @@ export default {
           image: "/team/Gooday.jpeg",
           name: "Godday Obakpolor",
           nick: null,
-          role: "Front-End Development  & NFT Education",
+          role: "Brand and Graphics",
           quote:
             "Qlip is a huge project, which is gonna change a lot of things both in Art, Music, photography and more, and this is a great opportunity for me to know jow NFTs work.",
           body: [

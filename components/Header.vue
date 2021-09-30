@@ -86,7 +86,11 @@
         </nuxt-link>
 
         <nuxt-link to="/#token" class="mr-3 lg:mx-3 lg:mx-6 my-3">
-          <span>QLIP Token</span>
+          <span>Token</span>
+        </nuxt-link>
+
+        <nuxt-link to="/#team" class="mr-3 lg:mx-3 lg:mx-6 my-3">
+          <span>Team</span>
         </nuxt-link>
 
         <a
