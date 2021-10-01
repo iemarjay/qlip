@@ -11,7 +11,7 @@
         <div class="grid grid-cols-2">
           <div
             class="
-              grid grid-rows-4
+              grid grid-rows-7
               gap-2
               lg:gap-4
               text-white text-base
@@ -34,6 +34,14 @@
             <nuxt-link to="/#token" class="mx-3 lg:mx-6">
               <span>QLIP Token</span>
             </nuxt-link>
+
+            <nuxt-link to="/#team" class="mx-3 lg:mx-6">
+              <span>Team</span>
+            </nuxt-link>
+
+            <a href="https://academy.qlipit.io" class="mx-3 lg:mx-6">
+              <span>Academy</span>
+            </a>
 
             <a
               href="/Landing%20Page.pdf"
@@ -72,10 +80,6 @@
 
             <a href="https://discord.gg/bJB5jBqn5n" class="mx-3 lg:mx-6">
               <span>Discord</span>
-            </a>
-
-            <a href="http://academy.qlitit.io/" class="mx-3 lg:mx-6">
-              <span>Academy</span>
             </a>
 
             <div>

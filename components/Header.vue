@@ -94,6 +94,13 @@
         </nuxt-link>
 
         <a
+          href="https://academy.qlipit.io"
+          class="mr-3 lg:mx-3 lg:mx-6 my-3 md:hidden"
+        >
+          <span>Academy</span>
+        </a>
+
+        <a
           href="/Landing%20Page.pdf"
           download="whitepaper.pdf"
           class="mr-3 lg:mx-3 lg:mx-6 my-3"
