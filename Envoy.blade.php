@@ -20,6 +20,7 @@ npm run build
 @endtask
 
 @task('pm2:reload')
+export PATH=$PATH:/opt/node/lib/node_modules/pm2/bin
 cd {{ $path }}
 pm2 reload {{ $pm2Id }}
 @endtask
