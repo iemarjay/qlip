@@ -73,9 +73,9 @@
         "
         :class="{ hidden: showMobileNav }"
       >
-        <nuxt-link to="/#store" class="mr-3 lg:mx-3 lg:mx-6 my-3">
-          <span>Mint Store</span>
-        </nuxt-link>
+<!--        <nuxt-link to="/#store" class="mr-3 lg:mx-3 lg:mx-6 my-3">-->
+<!--          <span>Mint Store</span>-->
+<!--        </nuxt-link>-->
 
         <nuxt-link to="/#marketplace" class="mr-3 lg:mx-3 lg:mx-6 my-3">
           <span>Marketplace</span>
@@ -95,9 +95,9 @@
 
         <a
           href="https://academy.qlipit.io"
-          class="mr-3 lg:mx-3 lg:mx-6 my-3 md:hidden"
+          class="mr-3 lg:mx-3 lg:mx-6 my-3"
         >
-          <span>Academy</span>
+          <span>NFT Academy</span>
         </a>
 
         <a

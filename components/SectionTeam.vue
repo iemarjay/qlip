@@ -118,7 +118,7 @@ export default {
           body: [
             "KarlaGod is a  artiste, rapper, songwriter with various  projects, singles and videos to her art.",
             "She got into the Crypto space in 2016 through writing articles on steemit and started her business development and Digital Marketing career in 2017, helping startups and Tech companies grow.",
-            "PLanE Services, Whatskool, Cilium are some of  she built.",
+            "PLanE Services, Whatskool, Cilium are some of the companies she built.",
             "In 2020 she became an ambassador for Algorand, and  founded Crypto Smart, a Crypto Asset Management Company.",
           ],
           quote:

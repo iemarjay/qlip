@@ -19,9 +19,9 @@
               font-medium
             "
           >
-            <nuxt-link to="/#store" class="mx-3 lg:mx-6">
-              <span>Mint Store</span>
-            </nuxt-link>
+<!--            <nuxt-link to="/#store" class="mx-3 lg:mx-6">-->
+<!--              <span>Mint Store</span>-->
+<!--            </nuxt-link>-->
 
             <nuxt-link to="/#marketplace" class="mx-3 lg:mx-6">
               <span>Marketplace</span>
@@ -40,7 +40,7 @@
             </nuxt-link>
 
             <a href="https://academy.qlipit.io" class="mx-3 lg:mx-6">
-              <span>Academy</span>
+              <span>NFT Academy</span>
             </a>
 
             <a
