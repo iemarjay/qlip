@@ -77,7 +77,7 @@
         >
           <iframe
             class="w-full h-full"
-            src="https://www.youtube-nocookie.com/embed/aUCViBzDjWk"
+            src="https://www.youtube-nocookie.com/embed/b0mkPD2bjuM"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
