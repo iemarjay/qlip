@@ -65,7 +65,7 @@
       >
         <iframe
           class="w-full min-h-60 lg:min-h-96 rounded-lg shadow-xl"
-          src="https://www.youtube-nocookie.com/embed/Zj58i_j17YA"
+          src="https://www.youtube-nocookie.com/embed/b0mkPD2bjuM"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
