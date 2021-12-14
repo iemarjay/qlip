@@ -182,6 +182,15 @@ export default {
             "He is also a music artist, singer, and songwriter.",
           ],
         },
+        {
+          image: "/team/anozie.jpg",
+          name: "Ogbaje Stephen",
+          nick: null,
+          role: null,
+          body: [
+            "Stephen is a  skilled, diligent, hardworking, and results-oriented individual who possesses a great deal of enthusiasm with high energy, creativity, and an excellent working attitude. I have a great ability to adapt to different working conditions, be it on my own or working as a team player. I am very passionate about building Blockchain/Crypto-related communities via key strategies for driving mass adoption and growth in Africa and by extension other part of the world.  ",
+          ],
+        },
       ],
     }
   },
