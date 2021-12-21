@@ -40,7 +40,7 @@
         decentralized store users.
       </p>
       <div class="w-full">
-        <button
+        <a href="https://app.qlipit.io/"
           class="
             bg-gradient-to-b
             from-primary
@@ -56,8 +56,8 @@
             md:py-4
           "
         >
-          Buy QLIP Tokens
-        </button>
+          Buy/Mint an NFT
+        </a>
 
         <div
           class="
