@@ -137,18 +137,6 @@ export default {
           ],
         },
         {
-          image: "/team/Ayuba.jpg",
-          name: "Ayuba Bashir",
-          nick: "AMEC",
-          role: "Advisor and Ambassador Coordinator",
-          quote:
-            "I worked for some crypto projects to get more involved with crypto and have more influence in the space by additionally building and managing supportive communities and making great friends.",
-          body: [
-            "Amec is  Aergo ambassador, CEO of crypto Syndicate and Vitex AMA series host.",
-            "Currently an Ambassador for Algorand, Near, Aeternity.",
-          ],
-        },
-        {
           image: "/team/Caleb.jpg",
           name: "Caleb Alikwe",
           nick: null,
